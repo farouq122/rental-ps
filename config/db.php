@@ -2,7 +2,7 @@
 $host    = '127.0.0.1';
 $db      = 'rental_ps';
 $user    = 'rentaluser';
-$pass    = 'PASSWORD'; // Silakan ganti PASSWORD ini sesuai dengan credential database Anda di Azure VM
+$pass    = 'RentalPS@2026!'; // Silakan ganti PASSWORD ini sesuai dengan credential database Anda di Azure VM
 $charset = 'utf8mb4';
 
 $dsn     = "mysql:host=$host;dbname=$db;charset=$charset";
