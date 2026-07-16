@@ -19,5 +19,5 @@ try {
 }
 
 // Base URL — sesuaikan dengan path sub-folder di server (http://IP_SERVER/rental-ps)
-define('BASE_URL', '/rental-ps');
+define('BASE_URL', '/http://85.211.192.112/');
 ?>
