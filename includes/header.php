@@ -1,4 +1,4 @@
-<?php
+    <?php
 require_once __DIR__ . '/helper.php';
 require_once __DIR__ . '/../config/db.php';
 ?>
@@ -34,6 +34,28 @@ require_once __DIR__ . '/../config/db.php';
             min-height: 100vh;
         }
 
+            /* Tampilan default untuk mobile */
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+        }
+
+/* Tampilan untuk tablet (layar lebih besar dari 768px) */
+        @media screen and (min-width: 768px) {
+            .container {
+                width: 750px;
+                margin: auto;
+            }
+        }
+
+/* Tampilan untuk desktop (layar lebih besar dari 1024px) */
+        @media screen and (min-width: 1024px) {
+            .container {
+                width: 960px;
+                margin: auto;
+            }
+        }
         /* ── NAVBAR ── */
         .navbar {
             background: rgba(255, 255, 255, 0.92);
